@@ -1,0 +1,23 @@
+{
+  "name": "backend-exercises",
+  "version": "1.0.0",
+  "description": "Exercícios de backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueVerasAraujo/backend-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueVerasAraujo/backend-exercises/issues"
+  },
+  "homepage": "https://github.com/HenriqueVerasAraujo/backend-exercises#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
