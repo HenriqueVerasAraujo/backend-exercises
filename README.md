@@ -9,4 +9,4 @@ Exercícios feitos:
  - [x] NODE.js-dia-1
  - [ ] NODE.js-dia-2-promises
  - [ ] NODE.js-dia-3-testes
- - [ ] NODE.js-dia-4-express
+ - [x] NODE.js-dia-4-express
