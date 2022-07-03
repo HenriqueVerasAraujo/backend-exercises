@@ -11,4 +11,3 @@ Exercícios feitos:
  - [x] NODE.js-dia-3-testes
  - [x] NODE.js-dia-4-express
  - [x] testes em MSC
-  
