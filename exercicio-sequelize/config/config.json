@@ -2,7 +2,7 @@
   "development": {
     "username": "henrique",
     "password": "123123ae",
-    "database": "database-exercise",
+    "database": "databaseExercise",
     "host": "localhost",
     "dialect": "mysql"
   },
