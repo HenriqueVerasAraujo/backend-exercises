@@ -49,9 +49,24 @@ const updateBook = async(req, res) => {
     }
 };
 
+const deleteBook = async(req, res) => {
+    try {
+        const { id } = req.params;
+        const singleBook = await BooksService.deleteBook(id);
+        if(singleBook.error) {
+            return res.status(404).json({message: singleBook.error });
+        }
+        return res.status(200).json({ message: singleBook.message });
+    } catch(err) {
+        console.log(err);
+        return res.status(500).json({error: err});
+    }
+};
+
 module.exports = {
     getAll,
     createBook,
     getById,
-    updateBook
+    updateBook,
+    deleteBook,
 };

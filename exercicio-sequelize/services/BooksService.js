@@ -28,9 +28,20 @@ const updateBook= async (id, fields) => {
     return updateBook;
 };
 
+const deleteBook= async (id) => {
+    const singleBook = await Book.findOne({ where: { id } });
+    if (!singleBook) {
+        return {error: 'Book not found.'}
+    }
+    await Book.destroy({ where: { id } });
+    return {message: 'Book deleted.'};
+};
+
+
 module.exports = {
     getAll,
     createBook,
     getById,
     updateBook,
+    deleteBook,
 }
