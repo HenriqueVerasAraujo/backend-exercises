@@ -1,7 +1,6 @@
 {
   "name": "exercicio-testes-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests"
@@ -15,5 +14,10 @@
     "chai": "^4.3.6",
     "mocha": "^10.0.0",
     "sinon": "^14.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "description": ""
 }
